@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Responsive Bootstrap 4 menu - light/dark</title>
+  <title>Developer Khalid</title>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
 
 </head>
@@ -68,6 +68,18 @@
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script><script  src="./script.js"></script>
-
+<script>
+	function run(){
+var password = prompt("Password Please");
+//Change to your own Password
+if(password != 'fuck'){
+document.body.innerHTML = '';
+document.body.innerHTML = 'Password Failed! Reload to Renter Password';
+}else{
+alert('Success');
+}
+}
+run();
+</script>
 </body>
 </html>
